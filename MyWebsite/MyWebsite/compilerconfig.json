@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "public/stylesheets/main.css",
+    "inputFile": "public/stylesheets/less/main.less"
+  },
+  {
+    "outputFile": "public/stylesheets/mixins.css",
+    "inputFile": "public/stylesheets/less/mixins.less"
+  }
+]

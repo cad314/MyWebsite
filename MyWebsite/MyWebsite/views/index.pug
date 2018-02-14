@@ -1,5 +1,8 @@
 ﻿extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	include includes/header.pug
+
+	h1 Hello World!
+
+	include includes/footer.pug

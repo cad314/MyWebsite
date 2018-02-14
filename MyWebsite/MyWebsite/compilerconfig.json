@@ -6,5 +6,9 @@
   {
     "outputFile": "public/stylesheets/mixins.css",
     "inputFile": "public/stylesheets/less/mixins.less"
+  },
+  {
+    "outputFile": "public/stylesheets/variables.css",
+    "inputFile": "public/stylesheets/less/variables.less"
   }
 ]

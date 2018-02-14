@@ -4,7 +4,7 @@
 
     function toggleHorizontal() {
         [].forEach.call(
-            document.getElementById('menu').querySelectorAll('.custom-can-transform'),
+            document.getElementById('menu').querySelectorAll('.navbar-can-transform'),
             function(el){
                 el.classList.toggle('pure-menu-horizontal');
             }

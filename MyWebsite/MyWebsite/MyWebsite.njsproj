@@ -48,6 +48,9 @@
     <Content Include="public\stylesheets\less\mixins.less">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\stylesheets\less\variables.less">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\stylesheets\main.css" />
     <Content Include="public\stylesheets\main.min.css">
       <SubType>Content</SubType>
@@ -57,6 +60,11 @@
     <Content Include="public\stylesheets\mixins.min.css">
       <SubType>Content</SubType>
       <DependentUpon>public\stylesheets\mixins.css</DependentUpon>
+    </Content>
+    <Content Include="public\stylesheets\variables.css" />
+    <Content Include="public\stylesheets\variables.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>public\stylesheets\variables.css</DependentUpon>
     </Content>
     <Content Include="README.md" />
     <Content Include="views\includes\footer.pug">

@@ -1,51 +1,63 @@
 ﻿@import "mixins";
+@import "variables";
 
-.custom-wrapper {
+.navbar-wrapper {
 	background-color: #ffd390;
 	margin-bottom: 1em;
 	-webkit-font-smoothing: antialiased;
 	height: 2.1em;
 	overflow: hidden;
-	.transition(height;0.5s);
+	.transition(height;	0.5s);
 }
 
-.custom-wrapper.open {
-	height: 14em;
+.navbar-wrapper.open {
+	height: @navbar-open-height;
 }
 
-.custom-menu-3 {
+.navbar-menu-3 {
 	text-align: right;
 }
 
-.custom-toggle {
-	width: 34px;
-	height: 34px;
+.navbar-toggle {
+	width: 50px;
+	height: 50px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	display: none;
 }
 
-.custom-toggle .bar {
+.navbar-toggle .bar {
 	background-color: #777;
 	display: block;
-	width: 30px;
-	height: 3px;
+	width: 35px;
+	height: 4px;
 	border-radius: 100px;
 	position: absolute;
 	top: 18px;
 	right: 7px;
-	.transition(all,0.5s);
+	.transition(all;0.5s);
 }
 
-.custom-toggle .bar:first-child {
-	.transform(translateY;-6px);
+.navbar-toggle .bar:first-child {
+	.transform(translateY;-8px);
 }
 
-.custom-toggle.x .bar {
+.navbar-toggle.x .bar {
 	.transform(rotate;45deg);
 }
 
-.custom-toggle.x .bar:first-child {
+.navbar-toggle.x .bar:first-child {
 	.transform(rotate;-45deg);
+}
+
+@media (max-width: 47.999em) {
+
+	.navbar-menu-3 {
+		text-align: left;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
 }

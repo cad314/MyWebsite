@@ -1,4 +1,4 @@
-﻿.custom-wrapper {
+﻿.navbar-wrapper {
   background-color: #ffd390;
   margin-bottom: 1em;
   -webkit-font-smoothing: antialiased;
@@ -9,25 +9,25 @@
   -ms-transition: height 0.5s;
   transition: height 0.5s;
 }
-.custom-wrapper.open {
-  height: 14em;
+.navbar-wrapper.open {
+  height: 11em;
 }
-.custom-menu-3 {
+.navbar-menu-3 {
   text-align: right;
 }
-.custom-toggle {
-  width: 34px;
-  height: 34px;
+.navbar-toggle {
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 0;
   right: 0;
   display: none;
 }
-.custom-toggle .bar {
+.navbar-toggle .bar {
   background-color: #777;
   display: block;
-  width: 30px;
-  height: 3px;
+  width: 35px;
+  height: 4px;
   border-radius: 100px;
   position: absolute;
   top: 18px;
@@ -37,21 +37,29 @@
   -ms-transition: all 0.5s;
   transition: all 0.5s;
 }
-.custom-toggle .bar:first-child {
-  -webkit-transform: translateY(-6px);
-  -moz-transform: translateY(-6px);
-  -ms-transform: translateY(-6px);
-  transform: translateY(-6px);
+.navbar-toggle .bar:first-child {
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
-.custom-toggle.x .bar {
+.navbar-toggle.x .bar {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.custom-toggle.x .bar:first-child {
+.navbar-toggle.x .bar:first-child {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+@media (max-width: 47.999em) {
+  .navbar-menu-3 {
+    text-align: left;
+  }
+  .navbar-toggle {
+    display: block;
+  }
 }

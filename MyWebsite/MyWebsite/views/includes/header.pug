@@ -1,19 +1,32 @@
 ﻿header
-	#menu.navbar-wrapper.pure-g
-		.pure-u-1.pure-u-md-1-3
+	h1#banner Hello. This is my website...
+	#navbar.navbar-wrapper
+		.pure-u-1.pure-u-md-5-24
 			.pure-menu
-				a.pure-menu-heading.navbar-brand(href='#') Carlos D
+				div.pure-menu-heading.navbar-brand(href='#') Carlos D.
 				a#toggle.navbar-toggle(href='#')
 					s.bar
 					s.bar
-		.pure-u-1.pure-u-md-2-3
+		.pure-u-1.pure-u-md-19-24
 			.pure-menu.pure-menu-horizontal.navbar-can-transform
 				ul.pure-menu-list
 					li.pure-menu-item
-						a.pure-menu-link(href='#') About Me
+						if page_name == "about"
+							a.pure-menu-link.active(href='#') About Me
+						else
+							a.pure-menu-link(href='#') About Me
 					li.pure-menu-item
-						a.pure-menu-link(href='#') Experience
+						if page_name == "experience"
+							a.pure-menu-link.active(href='#') Experience
+						else
+							a.pure-menu-link(href='#') Experience
 					li.pure-menu-item
-						a.pure-menu-link(href='#') Projects
+						if page_name == "projects"
+							a.pure-menu-link.active(href='#') Projects
+						else
+							a.pure-menu-link(href='#') Projects
 					li.pure-menu-item
-						a.pure-menu-link(href='#') Hobbies
+						if page_name == "hobbies"
+							a.pure-menu-link.active(href='#') Hobbies
+						else
+							a.pure-menu-link(href='#') Hobbies

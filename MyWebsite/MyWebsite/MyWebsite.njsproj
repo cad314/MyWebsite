@@ -44,6 +44,46 @@
     </Content>
     <Content Include="package.json" />
     <None Include="packages.config" />
+    <Content Include="public\fonts\clearsans\ClearSans-Bold.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-BoldItalic.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Italic.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Light.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Medium.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-MediumItalic.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Regular.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Thin.eot" />
+    <Content Include="public\fonts\clearsans\ClearSans-Bold.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-BoldItalic.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Italic.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Light.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Medium.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-MediumItalic.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Regular.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Thin.svg" />
+    <Content Include="public\fonts\clearsans\ClearSans-Bold.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-BoldItalic.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Italic.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Light.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Medium.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-MediumItalic.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Regular.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Thin.ttf" />
+    <Content Include="public\fonts\clearsans\ClearSans-Bold.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-BoldItalic.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-Italic.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-Light.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-Medium.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-MediumItalic.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-Regular.woff" />
+    <Content Include="public\fonts\clearsans\ClearSans-Thin.woff" />
+    <Content Include="public\stylesheets\font_clearsans.css" />
+    <Content Include="public\stylesheets\font_clearsans.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>public\stylesheets\font_clearsans.css</DependentUpon>
+    </Content>
+    <Content Include="public\stylesheets\less\font_clearsans.less">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\stylesheets\less\main.less" />
     <Content Include="public\stylesheets\less\mixins.less">
       <SubType>Code</SubType>
@@ -79,8 +119,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />
+    <Folder Include="public\fonts\clearsans\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\images\" />
+    <Folder Include="public\fonts\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="public\stylesheets\less\" />
     <Folder Include="routes\" />

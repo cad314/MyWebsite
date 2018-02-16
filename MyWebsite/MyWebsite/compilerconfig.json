@@ -1,14 +1,18 @@
 ﻿[
-  {
-    "outputFile": "public/stylesheets/main.css",
-    "inputFile": "public/stylesheets/less/main.less"
-  },
-  {
-    "outputFile": "public/stylesheets/mixins.css",
-    "inputFile": "public/stylesheets/less/mixins.less"
-  },
-  {
-    "outputFile": "public/stylesheets/variables.css",
-    "inputFile": "public/stylesheets/less/variables.less"
-  }
+	{
+		"outputFile": "public/stylesheets/main.css",
+		"inputFile": "public/stylesheets/less/main.less"
+	},
+	{
+		"outputFile": "public/stylesheets/mixins.css",
+		"inputFile": "public/stylesheets/less/mixins.less"
+	},
+	{
+		"outputFile": "public/stylesheets/variables.css",
+		"inputFile": "public/stylesheets/less/variables.less"
+	},
+	{
+		"outputFile": "public/stylesheets/font_clearsans.css",
+		"inputFile": "public/stylesheets/less/font_clearsans.less"
+	}
 ]

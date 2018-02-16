@@ -1,7 +1,6 @@
 ﻿.transition (@property: all, @duration: 0) {
 	-webkit-transition: @property @duration;
 	-moz-transition: @property @duration;
-	-ms-transition: @property @duration;
 	transition: @property @duration;
 }
 
@@ -17,4 +16,20 @@
 	-moz-transform: rotate(@value);
 	-ms-transform: rotate(@value);
 	transform: rotate(@value);
+}
+
+.shadow-layer(@hori,@vert,@blur,@spread,@alpha,@layer) {
+	position: relative;
+	z-index: @layer;
+	.box-shadow(@hori,@vert,@blur,@spread,rgba(0,0,0,@alpha));
+}
+
+.box-shadow-standard(@height) {
+	.box-shadow(0,unit(@height*1.1,px),unit(@height*1.1,px),unit(@height*1.1,px),rgba(0,0,0,.9-@height*.1));
+}
+
+.box-shadow(@h, @v, @blur, @spread, @color) {
+	-webkit-box-shadow: @h @v @blur @spread @color;
+	-moz-box-shadow: @h @v @blur @spread @color;
+	box-shadow: @h @v @blur @spread @color;
 }

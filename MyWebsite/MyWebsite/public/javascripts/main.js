@@ -1,10 +1,10 @@
 ﻿(function (window, document) {
-    var menu = document.getElementById('menu'),
+    var menu = document.getElementById('navbar'),
         WINDOW_CHANGE_EVENT = 'onorientationchange' in window ? 'orientationchange' : 'resize';
 
     function toggleHorizontal() {
         [].forEach.call(
-            document.getElementById('menu').querySelectorAll('.navbar-can-transform'),
+            document.getElementById('navbar').querySelectorAll('.navbar-can-transform'),
             function(el){
                 el.classList.toggle('pure-menu-horizontal');
             }
